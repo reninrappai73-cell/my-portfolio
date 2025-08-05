@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "GIpcMh24VuerO6O0E",});
+   })();
+</script>
+</head>
+<body>
+    <!-- header -->
+     <div class="sticky">
+    <header id="header">
+        <span class="header1">Renin</span>
+        <span class="header2">
+            <a href="#home" class="a">Home</a>
+            <a href="#about" class="a">About</a>
+            <a href="#skill" class="a">Skill</a>
+            <a href="#project" class="a">Works</a>
+            <a href="#contact" class="a">Contact</a>
+        </span>
+    </header>
+
+    <!-- home -->
+    <section id="home">
+        <div class="home1">
+            <span class="name">
+                <h1  class="name1">I'am </h1><h1 class="name2">Renin Rappai </h1><h1 class="name3">Data Analyst</h1>
+            </span>
+        </div>
+        <span class="img1"><img src=C:\Users\Renin\Desktop\portfolio1\images\renin.image.png alt="" class="photo1"></span>
+     </section>
+
+     <!-- about -->
+    <section id="about">
+            <span class="grp">
+                <img src="C:\Users\Renin\Desktop\portfolio1\images\WhatsApp Image 2025-08-03 at 22.11.31_a19376a2.jpg" alt="" class="img2">
+            </span>
+                <div class="am">  
+                    <h1 id="pre">About Me</h1><br>   
+                    <pre class="me">
+                    My name is Renin Rappai. I am a beginner Data Analyst & frontend developer.
+                    I loves creating websites using HTML, CSS, and JavaScript also studying about Data Science.
+                    Iam doing various projects to improve my skills. 
+                    Currently my goal is to become a Data Scientist in the future.</pre>
+                </div>
+                <!-- <button id="b1">Works</button> -->
+
+    </section>
+    
+
+      <!-- skill -->
+    <section id="skill">
+        <div class="my-skill">
+          <h1 class="ms">My Skills</h1>
+           <div class="icon1">
+            <span class="html">
+             <i class="fa-brands fa-html5"></i>
+             <h1 class="ht">HTML</h1>
+             </span>
+             <span class="css">
+             <i class="fa-brands fa-css3-alt"></i>
+             <h1 class="cs">CSS</h1>
+             </span>
+             <span class="JavaScript">
+             <i class="fa-brands fa-js"></i>
+             <h1 class="js">JavaScript</h1>
+             </span>
+             <span class="boot">
+             <i class="fa-brands fa-bootstrap"></i>
+             <h1 class="bt">Bootstrap</h1>
+             </span>
+             <span class="git">
+             <i class="fa-brands fa-git-alt"></i>
+             <h1 class="gi">Git</h1>
+             </span>
+        </div>
+        </div> 
+    </section>
+
+
+
+    <!-- project -->
+     <section id="project">
+        <div class="section1">
+            <h1 class="myworks">My Works</h1>    
+            <div class="pro">
+                <span class="ixig">
+                    <img src="C:\Users\Renin\Desktop\portfolio1\images\ixio.png" alt="" class="ixigo">
+                </span>
+                <span class="w3">
+                    <img src="C:\Users\Renin\Desktop\portfolio1\images\w3.png" alt="" class="w3school">
+                </span>
+            </div>        
+        </div>
+     </section>
+
+<!-- contact us -->
+ <section id="contact">
+        <div class="container mt-3 ">
+            <div class="row">
+                <div class="col-md-4 p-5  text-white">
+                    <!-- <h1>Hi There</h1><br> -->
+                    <h4 id="chat">
+                       <!-- Send message to communicate whith me -->
+                    </h4>
+                </div>
+                <div class="col-md-4 py-3">
+                    <h1>Contact Form</h1>
+                    <div class="form-group">
+                        <h5 for="name">Name</h5>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your Name">
+                    </div>
+                    <div class="form-group">
+                        <h5 for="email">Email</h5>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your Email">
+                    </div>
+                    <div class="form-group">
+                        <h5 for="message">Message</h5>
+                        <textarea id="message" rows="3" class="form-control"></textarea>
+                    </div>
+                    <button class="btn btn-primary" onclick="sendMail()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- footer -->
+
+<footer>
+        <div class="footer">
+            <p>© 2025 Renin Rappai. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+
+  </div>
+    <script src="portfolio.js"></script>
+</body>
+</html>
+
+
+
